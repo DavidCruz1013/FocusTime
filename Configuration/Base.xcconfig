@@ -1,0 +1,13 @@
+// Personal Team build: local data, timers and local notifications.
+// No Family Controls, App Groups or paid provisioning capabilities.
+// Change the Bundle Identifier directly on the FocusTime target in Xcode if needed.
+IPHONEOS_DEPLOYMENT_TARGET = 17.0
+SDKROOT = iphoneos
+SUPPORTED_PLATFORMS = iphoneos iphonesimulator
+SUPPORTS_MACCATALYST = NO
+TARGETED_DEVICE_FAMILY = 1,2
+SWIFT_VERSION = 5.0
+CURRENT_PROJECT_VERSION = 4
+MARKETING_VERSION = 1.2
+// Select your Personal Team in Xcode; this optional file can set the Team too.
+#include? "Signing.xcconfig"

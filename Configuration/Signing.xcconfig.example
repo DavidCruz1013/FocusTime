@@ -1,0 +1,2 @@
+// Copy to Signing.xcconfig, or select a Team for all three targets in Xcode.
+DEVELOPMENT_TEAM = YOUR_TEAM_ID
